@@ -1,0 +1,14 @@
+.cfx_titan-post-meta-heading {
+	position: relative;
+}
+
+.titan-toggle-ui {
+	position: absolute;
+	padding-top: 5px;
+	top: 0px;
+	left: -20px;
+}
+
+.cfx_titan-post-meta-heading.open .titan-toggle-ui {
+	transform: rotateZ(180deg);
+}
