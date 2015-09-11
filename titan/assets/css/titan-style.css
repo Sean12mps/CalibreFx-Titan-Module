@@ -13,7 +13,7 @@
 	transform: rotateZ(180deg);
 }
 
-.separator {
+#calibrefx_inpost_layout_box .separator {
 	height: 1px;
 	width: 50%;
 	background-color: #000;
