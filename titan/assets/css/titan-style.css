@@ -12,3 +12,11 @@
 .cfx_titan-post-meta-heading.open .titan-toggle-ui {
 	transform: rotateZ(180deg);
 }
+
+.separator {
+	height: 1px;
+	width: 50%;
+	background-color: #000;
+	position: relative;
+	top: -5px;
+}

@@ -15,6 +15,20 @@ jQuery( document ).ready( function ( $ ) {
 	$( window ).on( 'titan::manipulate', function () {
 
 		$( '.set_actions' ).hide();
+
+		$.each( $( '.set_actions' ), function( index, val ) {
+
+			var chk = $( val ).find( 'input[type=checkbox]' );
+
+			if ( $( chk ).is( ':checked' ) ) {
+
+				var separator = $( '<div></div>', {
+					'class' : 'separator'
+				} );
+
+				$( val ).before( separator );
+			}
+		} );
 	} );
 
 
